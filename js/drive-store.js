@@ -263,7 +263,7 @@ export class DriveStore {
     }
     await this.writeJson(this.ids.public, {
       version: 1, updatedAt: now, blogTitle: this.cfg.blogTitle,
-      author: { name: this.user?.name || '', photo: this.user?.photo || '' },
+      author: { name: this.cfg.authorName || this.user?.name || '', photo: this.user?.photo || '' },
       // Only included when the owner turned on "Show on my public blog".
       lastfm: this.settings?.lastfm?.public && this.settings.lastfm.user ? { user: this.settings.lastfm.user } : null,
       posts: posts.filter(p => p.visibility === 'public'),

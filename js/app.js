@@ -79,7 +79,7 @@ function renderChrome() {
   } else if (!owner && fab) fab.remove();
 
   renderBanner();
-  const name = store.user?.name || store.publicMeta?.author?.name || '';
+  const name = cfg.authorName || store.user?.name || store.publicMeta?.author?.name || '';
   $('#footer').innerHTML = `<span>© ${new Date().getFullYear()} ${esc(name || cfg.blogTitle)}</span><span class="dot">·</span><span>${demo ? 'Demo mode' : 'Stored in Google Drive'}</span>`;
 }
 

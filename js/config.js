@@ -3,8 +3,11 @@
 //  See SETUP.md for where each value comes from.
 // ─────────────────────────────────────────────────────────────
 window.BLOG_CONFIG = {
-  blogTitle: "My Blog",
-  tagline: "Thoughts, photos, videos, links and notes",
+  blogTitle: "Ivan's Blog",
+  tagline: "Thoughts, music & moments",
+
+  // Name shown in the footer (© year Name). Empty = your Google account name.
+  authorName: "Ivan Fernández",
 
   // OAuth 2.0 Client ID (type "Web application") from Google Cloud.
   // Leave empty to run in Demo mode (posts saved only in this browser).

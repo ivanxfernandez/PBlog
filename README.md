@@ -48,6 +48,7 @@ Edit `js/config.js`:
 window.BLOG_CONFIG = {
   blogTitle: "My Blog",
   tagline: "Thoughts, photos, videos, links and notes",
+  authorName: "",          // optional: name in the footer (default: your Google account name)
   googleClientId: "",      // OAuth 2.0 Client ID (Web application)
   googleApiKey: "",        // API key, used by visitors to read public posts
   publicIndexFileId: "",   // shown in the app's Settings panel after first sign-in
