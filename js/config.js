@@ -8,7 +8,7 @@ window.BLOG_CONFIG = {
 
   // OAuth 2.0 Client ID (type "Web application") from Google Cloud.
   // Leave empty to run in Demo mode (posts saved only in this browser).
-  googleClientId: "",
+  googleClientId: "445605875062-8vckgp02qe5abbmje6sq83mhqri7efne.apps.googleusercontent.com",
 
   // API key from Google Cloud, used by visitors to read your public posts.
   googleApiKey: "",
