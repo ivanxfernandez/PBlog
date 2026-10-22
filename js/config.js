@@ -11,7 +11,7 @@ window.BLOG_CONFIG = {
   googleClientId: "445605875062-8vckgp02qe5abbmje6sq83mhqri7efne.apps.googleusercontent.com",
 
   // API key from Google Cloud, used by visitors to read your public posts.
-  googleApiKey: "",
+  googleApiKey: "AIzaSyB1Nc3PozPVQ8c_zEZZaYjMwvxbrG71Br8",
 
   // Shown in the app's Settings panel after your first sign-in.
   publicIndexFileId: "",
