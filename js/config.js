@@ -14,7 +14,7 @@ window.BLOG_CONFIG = {
   googleApiKey: "AIzaSyB1Nc3PozPVQ8c_zEZZaYjMwvxbrG71Br8",
 
   // Shown in the app's Settings panel after your first sign-in.
-  publicIndexFileId: "",
+  publicIndexFileId: "1BxO9nDbYESyNsPX_5Nqmy3dE7NMDVNZZ",
 
   // Optional: only this Google account gets the editor.
   ownerEmail: "",
